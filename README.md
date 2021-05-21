@@ -38,7 +38,6 @@
 | description     | text       | null: false                    |
 | prefecture_id   | integer    | null: false                    |
 | municipality    | string     | null: false                    |
-| remark          | string     | null: false                    |
 | user            | references | null: false, foreign_key: true |
 
 ### Association
