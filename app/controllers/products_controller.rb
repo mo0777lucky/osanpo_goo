@@ -2,7 +2,7 @@ class ProductsController < ApplicationController
   before_action :move_to_index, except: [:index, :show]
   
   def index
-    #@products = Product.all
+    @products = Product.all
   end
 
   def new
@@ -13,8 +13,8 @@ class ProductsController < ApplicationController
     #Product.create(product_params)
   end
 
-  def show
-  end
+  #def show
+  #end
 
   private
   def product_params

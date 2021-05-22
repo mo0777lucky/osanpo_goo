@@ -1,0 +1,7 @@
+t.string     :title,         null: false
+      t.integer    :category_id,   null: false
+      t.text       :description,   null: false
+      t.integer    :prefecture_id, null: false
+      t.string     :municipality,  null: false
+      t.references :user,          null: false, foreign_key: true 
+      
